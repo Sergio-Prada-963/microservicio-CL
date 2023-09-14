@@ -14,7 +14,7 @@ class Server {
                     cuatro: "/api/cita",
                     seis: "/api/citas",
                     siete: "/api/medicos",
-                    };
+                    }; 
         this.routes();
     }
     routes(){

@@ -2,7 +2,7 @@ import { allPacientes, obtainCitas, obtainMEspecialidad, findCita, obtainDayCita
 import { Router } from "express";
 
 const router = Router();
-
+ 
 router.get('/pacientes',allPacientes);
 router.post('/fecha',obtainCitas);
 router.post('/medico',obtainMEspecialidad);

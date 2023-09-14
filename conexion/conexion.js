@@ -1,7 +1,7 @@
 import { MongoClient } from "mongodb";
 
 const conexion = ()=>{
-    try {
+    try { 
         const url = process.env.MONGO_URI;
         const client = new MongoClient(url);
         const bdname = process.env.NAME;

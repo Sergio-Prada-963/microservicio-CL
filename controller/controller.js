@@ -63,14 +63,14 @@ const obtainMEspecialidad = async(req,res)=>{
 
 // 4. Encontrar la próxima cita para un paciente en específico (por ejemplo, el paciente con user_id 1).
 
-const findCita = async(req,res)=>{
+const  findCita = async(req,res)=>{
     try {
         const colection = db.collection('usuarios');
         const objectId = new ObjectId(req.body.id);
         const data = await colection.aggregate([
             {
                 $match: {
-                    _id: objectId,
+                    _id: objectId, 
                 },
               },
               {

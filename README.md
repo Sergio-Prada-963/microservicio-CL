@@ -17,7 +17,7 @@
     "id": "65033ca3816c669c089a3200"
 }
 ```
-
+  
 # 5.
 
 # 6. `http://localhost:3309/api/citas/day` --post 
