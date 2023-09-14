@@ -1,14 +1,19 @@
 # 1. `http://localhost:3309/api/all/pacientes` --get
 # 2. `http://localhost:3309/api/cita/fecha` --- post
+
+```bash
 {
     "fecha": "2023-09-15"
 }
+```
 
 # 3. `http://localhost:3309/api/especialidad/medico` -- post
 
+```bash
 {
     "especialidad": "Cardiología"
 }
+```
 
 # 4. `http://localhost:3309/api/cita/find` -- post
 
