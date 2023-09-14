@@ -1,0 +1,229 @@
+[
+{"tipodoc_nombre": "Cedula Ciudadania", "tipodoc_abreviatura": "CC", "tipodoc_id":123456789},
+{"tipodoc_nombre": "Targeta Idenetidad", "tipodoc_abreviatura": "TI", "tipodoc_id":987654321},
+{"tipodoc_nombre": "Cedula Ciudadania", "tipodoc_abreviatura": "CC", "tipodoc_id":246813579},
+{"tipodoc_nombre": "Cedula Ciudadania", "tipodoc_abreviatura": "CC", "tipodoc_id":55555555},
+{"tipodoc_nombre": "Targeta Idenetidad", "tipodoc_abreviatura": "TI", "tipodoc_id":777777777},
+{"tipodoc_nombre": "Cedula Ciudadania", "tipodoc_abreviatura": "CC", "tipodoc_id":88888888},
+{"tipodoc_nombre": "Cedula Extrangeria", "tipodoc_abreviatura": "CE", "tipodoc_id":123456789},
+{"tipodoc_nombre": "Targeta Idenetidad", "tipodoc_abreviatura": "TI", "tipodoc_id":987654321},
+{"tipodoc_nombre": "Cedula Extrangeria", "tipodoc_abreviatura": "CE", "tipodoc_id":654321},
+{"tipodoc_nombre": "Cedula Extrangeria", "tipodoc_abreviatura": "CE", "tipodoc_id":123456789}
+]
+
+[
+    {"genero_nombre": "Masculino", "genero_abreviatura": "M"},
+    {"genero_nombre": "Femenino", "genero_abreviatura": "F"},
+    {"genero_nombre": "No binario", "genero_abreviatura": "NB"},
+    {"genero_nombre": "Género fluido", "genero_abreviatura": "GF"},
+    {"genero_nombre": "Agénero", "genero_abreviatura": "AG"},
+    {"genero_nombre": "Transgénero masculino", "genero_abreviatura": "TM"},
+    {"genero_nombre": "Transgénero femenino", "genero_abreviatura": "TF"},
+    {"genero_nombre": "Intersex", "genero_abreviatura": "I"},
+    {"genero_nombre": "Cisgénero masculino", "genero_abreviatura": "CM"},
+    {"genero_nombre": "Cisgénero femenino", "genero_abreviatura": "CF"}
+]
+
+[
+    {"acudiente_nombre": "María Pérez", "acudiente_telefono": "+1234567890", "acudiente_direccion": "Calle 123, Ciudad A"},
+    {"acudiente_nombre": "Juan Rodríguez", "acudiente_telefono": "+9876543210", "acudiente_direccion": "Avenida XYZ, Ciudad B"},
+    {"acudiente_nombre": "Luisa González", "acudiente_telefono": "+5555555555", "acudiente_direccion": "Carrera 456, Ciudad C"},
+    {"acudiente_nombre": "Carlos Martínez", "acudiente_telefono": "+3333333333", "acudiente_direccion": "Calle ABC, Ciudad D"},
+    {"acudiente_nombre": "Ana Sánchez", "acudiente_telefono": "+7777777777", "acudiente_direccion": "Avenida 789, Ciudad E"},
+    {"acudiente_nombre": "Pedro López", "acudiente_telefono": "+4444444444", "acudiente_direccion": "Carrera 987, Ciudad F"},
+    {"acudiente_nombre": "Isabel Ramírez", "acudiente_telefono": "+6666666666", "acudiente_direccion": "Calle 654, Ciudad G"},
+    {"acudiente_nombre": "Javier Silva", "acudiente_telefono": "+2222222222", "acudiente_direccion": "Avenida MNO, Ciudad H"},
+    {"acudiente_nombre": "Lucía Torres", "acudiente_telefono": "+1111111111", "acudiente_direccion": "Calle PQR, Ciudad I"},
+    {"acudiente_nombre": "Andrés Cruz", "acudiente_telefono": "+8888888888", "acudiente_direccion": "Carrera 321, Ciudad J"}
+]
+
+[
+    {
+        "usuario_nombre": "Juan",
+        "usuario_segundo_nombre": "Carlos",
+        "usuario_primer_apellido": "Gómez",
+        "usuario_segundo_apellido": "Rodríguez",
+        "usuario_telefono": "+1234567890",
+        "usuario_direccion": "Calle 123, Ciudad A",
+        "usuario_email": "juan.gomez@example.com",
+        "usuario_tipoDoc": "650334e1816c669c089a31b0",
+        "usuario_genero": "650333b1816c669c089a31a4",
+        "usuario_acudiente": "65033533816c669c089a31bd"
+    },
+    {
+        "usuario_nombre": "María",
+        "usuario_segundo_nombre": "Luisa",
+        "usuario_primer_apellido": "Pérez",
+        "usuario_segundo_apellido": "González",
+        "usuario_telefono": "+9876543210",
+        "usuario_direccion": "Avenida XYZ, Ciudad B",
+        "usuario_email": "maria.perez@example.com",
+        "usuario_tipoDoc": "650334e1816c669c089a31b1",
+        "usuario_genero": "650333b1816c669c089a31a5",
+        "usuario_acudiente": "65033533816c669c089a31be"
+    },
+    {
+        "usuario_nombre": "Pedro",
+        "usuario_segundo_nombre": "Javier",
+        "usuario_primer_apellido": "Sánchez",
+        "usuario_segundo_apellido": "Martínez",
+        "usuario_telefono": "+5555555555",
+        "usuario_direccion": "Carrera 456, Ciudad C",
+        "usuario_email": "pedro.sanchez@example.com",
+        "usuario_tipoDoc": "650334e1816c669c089a31b2",
+        "usuario_genero": "650333b1816c669c089a31a6",
+        "usuario_acudiente": "65033533816c669c089a31bf"
+    },
+    {
+        "usuario_nombre": "Laura",
+        "usuario_segundo_nombre": "Isabel",
+        "usuario_primer_apellido": "González",
+        "usuario_segundo_apellido": "Ramírez",
+        "usuario_telefono": "+3333333333",
+        "usuario_direccion": "Calle ABC, Ciudad D",
+        "usuario_email": "laura.gonzalez@example.com",
+        "usuario_tipoDoc": "650334e1816c669c089a31b3",
+        "usuario_genero": "650333b1816c669c089a31a7",
+        "usuario_acudiente": "65033533816c669c089a31c0"
+    },
+    {
+        "usuario_nombre": "José",
+        "usuario_segundo_nombre": "Manuel",
+        "usuario_primer_apellido": "López",
+        "usuario_segundo_apellido": "Silva",
+        "usuario_telefono": "+7777777777",
+        "usuario_direccion": "Avenida 789, Ciudad E",
+        "usuario_email": "jose.lopez@example.com",
+        "usuario_tipoDoc": "650334e1816c669c089a31b4",
+        "usuario_genero": "650333b1816c669c089a31a8",
+        "usuario_acudiente": "65033533816c669c089a31c1"
+    },
+    {
+        "usuario_nombre": "Ana",
+        "usuario_segundo_nombre": "Sofía",
+        "usuario_primer_apellido": "Martínez",
+        "usuario_segundo_apellido": "Torres",
+        "usuario_telefono": "+4444444444",
+        "usuario_direccion": "Carrera 987, Ciudad F",
+        "usuario_email": "ana.martinez@example.com",
+        "usuario_tipoDoc": "650334e1816c669c089a31b5",
+        "usuario_genero": "650333b1816c669c089a31a9",
+        "usuario_acudiente": "65033533816c669c089a31c2"
+    },
+    {
+        "usuario_nombre": "Eduardo",
+        "usuario_segundo_nombre": "Miguel",
+        "usuario_primer_apellido": "Rodríguez",
+        "usuario_segundo_apellido": "Pérez",
+        "usuario_telefono": "+6666666666",
+        "usuario_direccion": "Calle 654, Ciudad G",
+        "usuario_email": "eduardo.rodriguez@example.com",
+        "usuario_tipoDoc": "650334e1816c669c089a31b6",
+        "usuario_genero": "650333b1816c669c089a31aa",
+        "usuario_acudiente": "65033533816c669c089a31c3"
+    },
+    {
+        "usuario_nombre": "Mónica",
+        "usuario_segundo_nombre": "Isabel",
+        "usuario_primer_apellido": "López",
+        "usuario_segundo_apellido": "González",
+        "usuario_telefono": "+2222222222",
+        "usuario_direccion": "Avenida MNO, Ciudad H",
+        "usuario_email": "monica.lopez@example.com",
+        "usuario_tipoDoc": "650334e1816c669c089a31b7",
+        "usuario_genero": "650333b1816c669c089a31ab",
+        "usuario_acudiente": "65033533816c669c089a31c4"
+    },
+    {
+        "usuario_nombre": "Carlos",
+        "usuario_segundo_nombre": "Andrés",
+        "usuario_primer_apellido": "García",
+        "usuario_segundo_apellido": "Soto",
+        "usuario_telefono": "+1111111111",
+        "usuario_direccion": "Calle PQR, Ciudad I",
+        "usuario_email": "carlos.garcia@example.com",
+        "usuario_tipoDoc": "650334e1816c669c089a31b8",
+        "usuario_genero": "650333b1816c669c089a31ac",
+        "usuario_acudiente": "65033533816c669c089a31c5"
+    },
+    {
+        "usuario_nombre": "Luis",
+        "usuario_segundo_nombre": "Antonio",
+        "usuario_primer_apellido": "Pérez",
+        "usuario_segundo_apellido": "Mendoza",
+        "usuario_telefono": "+8888888888",
+        "usuario_direccion": "Carrera 321, Ciudad J",
+        "usuario_email": "luis.perez@example.com",
+        "usuario_tipoDoc": "650334e1816c669c089a31b9",
+        "usuario_genero": "650333b1816c669c089a31ad",
+        "usuario_acudiente": "65033533816c669c089a31c6"
+    }
+]
+
+[
+    {"cita_codigo": "CITA-123456", "cita_fecha": "2023-09-15T10:00:00","cita_estado": "650335f4816c669c089a31c9", "cita_medico": "65033a27816c669c089a31ef", "cita_datosUsuario": "65033ca3816c669c089a31ff"},
+    {"cita_codigo": "CITA-789012", "cita_fecha": "2023-09-16T14:30:00","cita_estado": "650335f4816c669c089a31ca", "cita_medico": "65033a27816c669c089a31f0", "cita_datosUsuario": "65033ca3816c669c089a3200"},
+    {"cita_codigo": "CITA-345678", "cita_fecha": "2023-09-17T11:15:00","cita_estado": "650335f4816c669c089a31cb", "cita_medico": "65033a27816c669c089a31f1", "cita_datosUsuario": "65033ca3816c669c089a3201"},
+    {"cita_codigo": "CITA-901234", "cita_fecha": "2023-09-18T09:45:00","cita_estado": "650335f4816c669c089a31cc", "cita_medico": "65033a27816c669c089a31f2", "cita_datosUsuario": "65033ca3816c669c089a3202"},
+    {"cita_codigo": "CITA-567890", "cita_fecha": "2023-09-19T16:20:00","cita_estado": "650335f4816c669c089a31cd", "cita_medico": "65033a27816c669c089a31f3", "cita_datosUsuario": "65033ca3816c669c089a3203"},
+    {"cita_codigo": "CITA-234567", "cita_fecha": "2023-09-20T13:00:00","cita_estado": "650335f4816c669c089a31ce", "cita_medico": "65033a27816c669c089a31f4", "cita_datosUsuario": "65033ca3816c669c089a3204"},
+    {"cita_codigo": "CITA-890123", "cita_fecha": "2023-09-21T15:45:00","cita_estado": "650335f4816c669c089a31cf", "cita_medico": "65033a27816c669c089a31f5", "cita_datosUsuario": "65033ca3816c669c089a3205"},
+    {"cita_codigo": "CITA-456789", "cita_fecha": "2023-09-22T08:30:00","cita_estado": "650335f4816c669c089a31d0", "cita_medico": "65033a27816c669c089a31f6", "cita_datosUsuario": "65033ca3816c669c089a3206"},
+    {"cita_codigo": "CITA-012345", "cita_fecha": "2023-09-23T12:10:00","cita_estado": "650335f4816c669c089a31d1", "cita_medico": "65033a27816c669c089a31f7", "cita_datosUsuario": "65033ca3816c669c089a3207"},
+    {"cita_codigo": "CITA-678901", "cita_fecha": "2023-09-24T17:30:00","cita_estado": "650335f4816c669c089a31d2", "cita_medico": "65033a27816c669c089a31f8", "cita_datosUsuario": "65033ca3816c669c089a3208"}
+]
+
+[
+    {"consultorio_nombre": "Consultorio 101","consultorio_codigo": 156482},
+    {"consultorio_nombre": "Consultorio 202A","consultorio_codigo": 123154},
+    {"consultorio_nombre": "Consultorio 305","consultorio_codigo": 985132},
+    {"consultorio_nombre": "Consultorio 408B","consultorio_codigo": 034651},
+    {"consultorio_nombre": "Consultorio 510","consultorio_codigo": 6840},
+    {"consultorio_nombre": "Consultorio 602C","consultorio_codigo": 02568},
+    {"consultorio_nombre": "Consultorio 703","consultorio_codigo": 10230},
+    {"consultorio_nombre": "Consultorio 804","consultorio_codigo": 98451},
+    {"consultorio_nombre": "Consultorio 906A","consultorio_codigo": 02368},
+    {"consultorio_nombre": "Consultorio 1001","consultorio_codigo": 214051}
+]
+
+[
+    {"especialidad_nombre": "Cardiología"},
+    {"especialidad_nombre": "Dermatología"},
+    {"especialidad_nombre": "Gastroenterología"},
+    {"especialidad_nombre": "Neurología"},
+    {"especialidad_nombre": "Oftalmología"},
+    {"especialidad_nombre": "Pediatría"},
+    {"especialidad_nombre": "Cirugía General"},
+    {"especialidad_nombre": "Psiquiatría"},
+    {"especialidad_nombre": "Ginecología y Obstetricia"},
+    {"especialidad_nombre": "Ortopedia"}
+]
+
+[
+    {"estado_cita":"Programada"},
+    {"estado_cita":"Confirmada"},
+    {"estado_cita":"Programada"},
+    {"estado_cita":"Confirmada"},
+    {"estado_cita":"Confirmada"},
+    {"estado_cita":"Atendida"},
+    {"estado_cita":"En Curso"},
+    {"estado_cita":"Atendida"},
+    {"estado_cita":"En Curso"},
+    {"estado_cita":"Cancelada"},
+]
+
+//MEIDCOS
+
+[
+    {"medico_nombre": "Dr. Juan Pérez", "matricula_profesional": "12345", "medico_consultorio": "6503378b816c669c089a31d5", "medico_especialidad":"650337ba816c669c089a31e1"},
+    {"medico_nombre": "Dra. María Rodríguez", "matricula_profesional": "23456", "medico_consultorio": "6503378b816c669c089a31d6", "medico_especialidad":"650337ba816c669c089a31e2"},
+    {"medico_nombre": "Dr. Carlos González", "matricula_profesional": "34567", "medico_consultorio": "6503378b816c669c089a31d7", "medico_especialidad":"650337ba816c669c089a31e3"},
+    {"medico_nombre": "Dra. Laura Sánchez", "matricula_profesional": "45678", "medico_consultorio": "6503378b816c669c089a31d8", "medico_especialidad":"650337ba816c669c089a31e4"},
+    {"medico_nombre": "Dr. José López", "matricula_profesional": "56789", "medico_consultorio": "6503378b816c669c089a31d9", "medico_especialidad":"650337ba816c669c089a31e5"},
+    {"medico_nombre": "Dra. Ana Martínez", "matricula_profesional": "67890", "medico_consultorio": "6503378b816c669c089a31da", "medico_especialidad":"650337ba816c669c089a31e6"},
+    {"medico_nombre": "Dr. Eduardo Rodríguez", "matricula_profesional": "78901", "medico_consultorio": "6503378b816c669c089a31db", "medico_especialidad":"650337ba816c669c089a31e7"},
+    {"medico_nombre": "Dra. Mónica López", "matricula_profesional": "89012", "medico_consultorio": "6503378b816c669c089a31dc", "medico_especialidad":"650337ba816c669c089a31e8"},
+    {"medico_nombre": "Dr. Carlos García", "matricula_profesional": "90123", "medico_consultorio": "6503378b816c669c089a31dd", "medico_especialidad":"650337ba816c669c089a31e9"},
+    {"medico_nombre": "Dra. Luisa Pérez", "matricula_profesional": "123456", "medico_consultorio": "6503378b816c669c089a31de", "medico_especialidad":"650337ba816c669c089a31ea"}
+]
+
