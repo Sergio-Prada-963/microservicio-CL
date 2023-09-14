@@ -12,6 +12,8 @@ class Server {
                     dos: "/api/cita",
                     tres: "/api/especialidad",
                     cuatro: "/api/cita",
+                    seis: "/api/citas",
+                    siete: "/api/medicos",
                     };
         this.routes();
     }
@@ -20,6 +22,8 @@ class Server {
         this.app.use(this.path.dos,router)
         this.app.use(this.path.tres,router)
         this.app.use(this.path.cuatro,router)
+        this.app.use(this.path.seis,router)
+        this.app.use(this.path.siete,router)
     }
     Listen(){
         this.app.listen(this.port,()=>{

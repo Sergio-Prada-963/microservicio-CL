@@ -91,4 +91,39 @@ const findCita = async(req,res)=>{
 // 5. Encontrar todos los pacientes que tienen citas con un médico en específico (por ejemplo, el médico con med_numMatriculaProfesional 1).
 
 
-export {allPacientes, obtainCitas, obtainMEspecialidad, findCita}  
+
+// 6. Encontrar todas las citas de un día en específico (por ejemplo, ‘2023-07-12’).
+
+const obtainDayCita = async (req,res)=>{
+    try {
+        const colection = db.collection('citas');
+        const fecha = new Date(req.body.fecha)  
+        const data = await colection.find({cita_fecha:fecha}).toArray();
+        res.json(data)
+    } catch (error) {
+        console.log(error, "error en el punto 6");
+    }
+}
+
+//Obtener todos los médicos con sus consultorios correspondientes.
+
+const medicConsult = async (req,res)=>{
+    try {
+        const colection = db.collection('consultorios');
+        const data = await colection.aggregate([
+            {
+                $lookup: {
+                  from: 'medicos', 
+                  localField: '_id', 
+                  foreignField: 'medico_consultorio',
+                  as: 'medicosAndConsutorios',
+                },
+              },
+        ]).toArray();
+        res.json(data)
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+export {allPacientes, obtainCitas, obtainMEspecialidad, findCita, obtainDayCita, medicConsult}  
